@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+  width: calc(100vw - (100vw - 100%));
+  overflow-x: hidden;
+  min-height: 100vh;
+  
+}
+.bgColorGris{
+    background-color: rgb(52, 58,64);
+  }
+header{
+  height: 70%;
+}
+
+  .justificadoFinal{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  .bgColorVerde{
+  background-color: rgb(12, 198, 30);
+  border: 1px solid rgb(1, 12, 2);
+  border-radius: 4px;
+  transition: all 400ms ease;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, .3);
+  cursor: default;
+}
+main{
+  margin-top: 30px;
+}
+.container-fluid{
+    justify-content: center;
+    /*margin-top: 30px;*/
+    display: flex;
+  
+}
+.card{
+    margin-right: 30px;
+}
+.card-header{
+  text-align: center;
+  
+}
+.card-text{
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+ text-decoration-color: black;
+}
+.tit{
+  display: flex;
+  justify-content: center;
+  
+}
+.row ancho{
+  width: 80%;
+  justify-content: center;
+
+}
+
+.med{
+  width: 60%;
+}
+.form-row{
+  width: 58%;
+  margin-left: 21%;
+  
+
+}
+.form-group{
+  width: 58%;
+  margin-left: 21%;
+}
+.coli{
+  
+  background-color: rgb(150, 201, 62);
+  border: 1px solid rgb(1, 12, 2);
+    transition: all 400ms ease;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, .3);
+  cursor: default;
+}
+
+.colorfooter{
+  background-color: rgb(5, 48, 49);
+}
+@media screen and (max_width: 768px){
+  
+  main{
+    flex-direction: column;
+  }
+}
